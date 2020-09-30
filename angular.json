@@ -13,12 +13,13 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/front-end",
+            "outputPath": "../public",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
             "aot": true,
+            "allowedCommonJsDependencies": ["angular2-flash-messages"],
             "assets": [
               "src/favicon.ico",
               "src/assets"

@@ -1,0 +1,8 @@
+<h1>Reg</h1>
+<form (submit)="userRegisterClick()">
+    <input type="text" [(ngModel)]="name" name="name" placeholder="Enter your name" class="form-control"><br>
+    <input type="text" [(ngModel)]="login" name="login" placeholder="Enter login" class="form-control"><br>
+    <input type="email" [(ngModel)]="email" name="email" placeholder="Enter Email" class="form-control"><br>
+    <input type="password" [(ngModel)]="password" name="password" placeholder="Enter Password" class="form-control"><br>
+    <button class="btn btn-success" type="submit">Create account</button>
+</form>
